@@ -1,0 +1,21 @@
+include("utils.jl")
+
+function parse_input(input)
+  input
+end
+
+function part1(input)
+end
+
+function part2(input)
+end
+
+example = parse_input("""
+
+  """)
+println("[Example p1] $(part1(example))") #
+println("[Example p2] $(part2(example))") #
+
+data = parse_input(Utils.readday(1))
+println("[Part 1] $(part1(data))") #
+println("[Part 2] $(part2(data))") #
